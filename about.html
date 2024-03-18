@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tech2etc Ecommerce Tutorial</title>
+        <link rel="stylesheet" href="index.css" />
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav class="navbar background h-nav-resp">
+            <ul class="nav-list v-class-resp">
+                <div class="logo"><img src="C:\Web Tech 2024\elearning-logo (1).png" alt="Gurukul"></div>
+                <li><a href="index.html"> Home </a></li>
+                <li><a href="about.html">About </a></li>
+                <li><a href="project.html"> Courses </a></li>
+                <li><a href="C:\Web Tech 2024\contact.html"> Contact Us</a></li>
+                <li><a href="C:\Web Tech 2024\Web_Tech_exp2A.html"> Sign up/Log in</a></li>
+                <div class="container">
+                    <input  type="text" placeholder="Search your course">
+                    <i class="fa-solid fa-magnifying-glass" style="color: #2474ff;"></i>
+                </div>
+                </ul>
+                </nav>
+        
+        <div id="container">
+            <div class="container1">
+                <p><b>Welcome to</b> E-Learning Platform, a dedicated platform for computer science
+                students to enhance their skills and knowledge. Our mission is to provide high-quality, 
+                accessible, and engaging learning resources tailored specifically for aspiring computer 
+                scientists.</p>
+            </div>
+
+            <div class="container1">
+                <h1>Our Vision</h1>
+                <p>
+                    At [Your E-Learning Platform Name], we envision a world where every student has
+                    the opportunity to excel in computer science. We strive to empower learners by 
+                    offering comprehensive courses and resources that cover a wide range of topics 
+                    within the field.
+                </p>
+            </div>
+            
+
+            <div class="container1">
+                <h1>What We Offer</h1>
+                <p>
+                    Interactive Courses: Our platform offers interactive courses designed by industry experts to cover fundamental concepts as well as advanced topics in computer science.
+                    Hands-On Projects: Dive deep into practical learning with hands-on projects that allow you to apply theoretical knowledge to real-world scenarios.
+                    Community Support: Connect with fellow learners, share insights, and collaborate on projects through our vibrant community forums.
+                    Expert Guidance: Get guidance and feedback from experienced mentors and instructors who are passionate about helping you succeed.
+                    Continuous Learning: Stay updated with the latest trends and advancements in computer science through our regularly updated content and resources.
+                </p>
+            </div>
+
+            <div class="container1">
+                <h1>Why Choose Us</h1>
+                <p>
+                    Quality Content: We prioritize quality in our content to ensure that you receive the best learning experience.
+                    Flexibility: Learn at your own pace, on your schedule, with flexible course structures and access to materials 24/7.
+                    Career Growth: Prepare yourself for a successful career in computer science with our comprehensive curriculum and industry-relevant skills.
+                    Accessibility: Our platform is designed to be accessible to learners of all backgrounds, making education inclusive and equitable.
+                </p>
+            </div>
+
+            <div class="container1">
+                <h1> Join Us Today</h1>
+                <p>
+                    Embark on your journey to mastering computer science by joining [Your E-Learning Platform Name] today. Whether you're a beginner or an experienced coder, there's something here for everyone. Let's learn, grow, and innovate together!
+                </p>
+            </div>
+        
+        </div>
+        <script>
+            let progress = document.getElementById('container');
+            let totalHeight = document.body.scrollHeight - window.innerHeight;
+            window.onscroll = function() {
+                let progressHeight = (window.pageYOffset / totalHeight) * 100;    
+                progress.style.height = progressHeight + "%";
+            }
+        </script>
+    </body>
+
+</html>
