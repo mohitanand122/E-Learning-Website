@@ -11,6 +11,7 @@ body {
     background-repeat: repeat-x;
 }
 
+@media screen and (max-width: 600px) {
 .container { 
     display: flex;
     align-items: center;
@@ -21,11 +22,13 @@ body {
     margin-bottom: 8px;
     justify-content: space-between;
 }
-
+}
+@media screen and (min-width: 600px) {
 .container input {
     width: 320px;
     border: none;
     outline: none;
+}
 }
 
 html {
@@ -47,6 +50,7 @@ html {
     margin: 5px;
 }
 
+@media screen and (min-width: 600px) {
 .navbar {
     background: linear-gradient(to top, #24025f, #98faf0);
     animation: animate 5s linear infinite;
@@ -59,6 +63,7 @@ html {
     top: 0;
     cursor: pointer;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+}
 }
 
 .nav-list {
